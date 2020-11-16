@@ -1,0 +1,103 @@
+@media all and (min-width:1200px){
+
+    .wrap{
+        width: 100%;
+        max-width: 1920px;
+        margin: auto;
+        position: relative;
+    }
+
+    header, section, footer{
+        width: 100%;
+        position: relative;
+        float: left;
+    }
+    /* 공통영역 */
+
+    header{
+        height: 80px;
+    }
+
+    .inHeader{
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo{
+        width: 80px;
+    }
+
+    .logo img{
+        width: 100%;
+    }
+
+    .inHeader ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .inHeader ul li{
+        padding: 10px 20px;
+        font-size: 17px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        text-transform: uppercase;
+    }
+
+    .nav:hover a{
+        color: #c53539;
+    }
+    /* header end */
+
+    .section1{
+        width: 100%;
+        height: 800px;
+        margin-bottom: 50px;
+        background-color: #eee;
+    }
+    /* section1 end */
+
+
+
+    footer{
+        height: 100px;
+        background-color: #c53539;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    footer p{
+        font-size: 11px;
+        color: rgb(209, 203, 203);
+        line-height: 18px;
+    }
+    /* footer end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}/* end */
